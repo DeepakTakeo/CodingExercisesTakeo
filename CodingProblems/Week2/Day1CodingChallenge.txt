@@ -1,0 +1,9 @@
+Coding exercise 1: Declare a String array and define names in it and search for a particular name in it.
+
+ 
+
+Ex : "ABC","XYZ","LION"
+
+ 
+
+I have to check in this array ,either "XYZ" exist or not.

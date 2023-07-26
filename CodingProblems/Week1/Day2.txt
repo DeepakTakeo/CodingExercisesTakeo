@@ -1,0 +1,38 @@
+************* Please create separate classes with proper nomenclature for each exercise **********************
+
+Exercise 1: Temperature Conversion
+Scenario: You are building a weather application, and you need to implement a feature that converts temperature values from Celsius to Fahrenheit.
+Given : You can take temperature of your city in Celsisus.
+Task: Write a program that converts Celsisus to Fahrenheit using the formula (Celsius * 9/5) + 32, and prints the converted temperature.
+// use proper data type for this as we can have decimal value there.
+
+-----------------------------------------------------------
+
+Exercise 2: Currency Converter
+Scenario: You are developing a currency converter application, and you need to implement a feature that converts a given amount in one currency to another currency.
+Given : USD value = 10
+Task: Write a program that converts currency to another currency based on the exchange rate. The exchange rate should be stored as a constant variable. Print the converted amount.
+//you can convert USD-Rupees and use proper data type
+
+-------------------------------------------------------------
+
+Exercise 3: Total Bill Calculation
+Scenario: You are developing a restaurant bill calculation application. You need to implement a feature that calculates the total bill amount, including tax and tip.
+Given : Bill amount = 30, Taxes = 15, Tip  = 10
+Task: Write a program that calculates the total bill amount by adding the bill amount, tax and tip.
+
+----------------------------------------------------------------
+
+Exercise 4: Student Grading
+Scenario: You are developing a student grading application for a teacher. You need to implement a feature that calculates the average grade of students in a class.
+Given : Grades for Five Students as : 8,9,5,4,8
+Task: Write a program that calculates their average grade. Print the average grade.
+// here also use appropriate data type.
+
+-----------------------------------------------------------------
+
+Exercise 5: Calculate Area of a Rectangle
+Scenario: You are designing a floor planning tool, and you need to calculate the area of a rectangle-shaped room.
+Given : Take length as 20 and breadth as 40.
+Task: Write a program that will calculates rectangle area. Print the calculated area.
+

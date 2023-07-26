@@ -1,0 +1,78 @@
+Exercise 1: Simple Interest Calculator
+
+Write a Java program that calculates the simple interest based on the principal amount, rate of interest, and time period provided by the user.
+
+Instructions:
+
+Use the Scanner class to take input from the user for the principal amount, rate of interest, and time period (in years).
+Calculate the simple interest using the formula: Simple Interest = (Principal * Rate * Time) / 100.
+Display the calculated simple interest to the user.
+
+Ex: Enter the principal amount: 5000
+    Enter the rate of interest: 8.5
+    Enter the time period (in years): 2
+    Simple Interest: 850.0
+
+
+***********************************************************************
+
+Exercise 2: Grade Calculator
+
+Write a Java program that calculates the grade based on the marks obtained by a student in an exam. The program should follow the standard grading system: A (90-100), B (80-89), C (70-79), D (60-69), F (below 60).
+
+Instructions:
+
+Use the Scanner class to take input from the user for the marks obtained.
+Determine the grade based on the marks using if-else statements.
+Display the calculated grade to the user.
+
+Ex: Enter the marks obtained: 85
+    Grade: B
+
+************************************************************************
+
+Exercise 3: Day of the Week
+
+Write a Java program that takes a number representing a day of the week (1 for Sunday, 2 for Monday, etc.) and displays the corresponding day's name.
+
+Instructions:
+
+Use the Scanner class to take input from the user for the number representing the day of the week.
+Implement a switch statement to display the corresponding day's name.
+Display the day's name to the user.
+
+Ex : Enter a number (1-7) representing the day of the week: 3
+     Day of the week: Tuesday
+
+**************************************************************************
+
+Exercise 4: Power Calculation
+
+Write a Java program that calculates the power of a given number raised to an exponent provided by the user.
+
+Instructions:
+
+Use the Scanner class to take input from the user for the base number and the exponent.
+Use a loop to calculate the power of the number raised to the exponent.
+Display the result to the user.
+
+Ex: Enter the base number: 2
+    Enter the exponent: 5
+    2^5 = 32
+
+**************************************************************************
+
+Exercise 5: BMI(Body Mass Index) Calculator
+
+Write a Java program that calculates the Body Mass Index (BMI) of a person based on their weight and height.
+
+Instructions:
+
+Use the Scanner class to take input from the user for their weight in kilograms and height in meters.
+Create a method that takes the input weight and height as arguments and calculates the BMI using the formula: BMI = weight / (height * height).
+
+Ex:  Enter your weight (kg): 70
+     Enter your height (m): 1.75
+     Your BMI: 22.86
+
+

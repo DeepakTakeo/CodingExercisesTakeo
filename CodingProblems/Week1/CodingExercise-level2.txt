@@ -1,0 +1,200 @@
+Exercise 1: Temperature Conversion
+Scenario: You are building a weather application, and you need to implement a feature that converts temperature values from Celsius to Fahrenheit.
+Given : You can take temperature of your city in Celsisus.
+Task: Write a program that converts Celsisus to Fahrenheit using the formula (Celsius * 9/5) + 32, and prints the converted temperature.
+// use proper data type for this as we can have decimal value there.
+
+-----------------------------------------------------------
+
+Exercise 2: Currency Converter
+Scenario: You are developing a currency converter application, and you need to implement a feature that converts a given amount in one currency to another currency.
+Given : USD value = 10
+Task: Write a program that converts currency to another currency based on the exchange rate. The exchange rate should be stored as a constant variable. Print the converted amount.
+//you can convert USD-Rupees and use proper data type
+
+-------------------------------------------------------------
+
+Exercise 3: Total Bill Calculation
+Scenario: You are developing a restaurant bill calculation application. You need to implement a feature that calculates the total bill amount, including tax and tip.
+Given : Bill amount = 30, Taxes = 15, Tip  = 10
+Task: Write a program that calculates the total bill amount by adding the bill amount, tax and tip.
+
+----------------------------------------------------------------
+
+Exercise 4: Student Grading
+
+Scenario: You are developing a student grading application for a teacher. You need to implement a feature that calculates the average grade of students in a class.
+Given : Grades for Five Students as : 8,9,5,4,8
+Task: Write a program that calculates their average grade. Print the average grade.
+// here also use appropriate data type.
+
+-----------------------------------------------------------------
+
+Exercise 5: Calculate Area of a Rectangle
+Scenario: You are designing a floor planning tool, and you need to calculate the area of a rectangle-shaped room.
+Given : Take length as 20 and breadth as 40.
+Task: Write a program that will calculates rectangle area. Print the calculated area.
+
+------------------------------------------------------------------
+
+
+Exercise 6: Design a calulator which perform a set of operations dynamically.
+Scenario: Design a Calculator class. Take inpit from user like :
+          Enter first number = 5
+          Enter Second number = 5
+          Enter Operation you want to perform = +
+     
+Outupt of Program will be like this :
+
+          Output: 5+5 = 10;
+
+Hint :   take input by using Scanner class
+         take operation(+,-,*,/) as String input from the console
+         use if else cases to compare operation with constant String like : final String SUM = "+"; similar for other
+         then inside if do the required operation
+         print the output.
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class TemperatureConversion {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the temperature in Celsius: ");
+        double celsius = scanner.nextDouble();
+        
+        double fahrenheit = (celsius * 9/5) + 32;
+        System.out.println("Temperature in Fahrenheit: " + fahrenheit);
+        
+        scanner.close();
+    }
+}
+
+-----------------------------------------------
+
+public class CurrencyConverter {
+    public static final double EXCHANGE_RATE = 0.85; // 1 USD = 0.85 EUR
+    
+    public static void main(String[] args) {
+        double amountInUSD = 100.0;
+        double amountInEUR = amountInUSD * EXCHANGE_RATE;
+        
+        System.out.println("Amount in USD: " + amountInUSD);
+        System.out.println("Amount in EUR: " + amountInEUR);
+    }
+}
+
+------------------------------------------------
+
+
+public class RestaurantBill {
+    public static final double TAX_RATE = 0.08;
+    public static final double TIP_PERCENTAGE = 0.15;
+    
+    public static void main(String[] args) {
+        double billAmount = 50.0;
+        
+        double tax = billAmount * TAX_RATE;
+        double tip = billAmount * TIP_PERCENTAGE;
+        double totalBill = billAmount + tax + tip;
+        
+        System.out.println("Bill Amount: $" + billAmount);
+        System.out.println("Tax: $" + tax);
+        System.out.println("Tip: $" + tip);
+        System.out.println("Total Bill: $" + totalBill);
+    }
+}
+
+-------------------------------------------------
+
+import java.util.Scanner;
+
+public class StudentGrading {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter the grades of five students:");
+        
+        System.out.print("Student 1: ");
+        int grade1 = scanner.nextInt();
+        
+        System.out.print("Student 2: ");
+        int grade2 = scanner.nextInt();
+        
+        System.out.print("Student 3: ");
+        int grade3 = scanner.nextInt();
+        
+        System.out.print("Student 4: ");
+        int grade4 = scanner.nextInt();
+        
+        System.out.print("Student 5: ");
+        int grade5 = scanner.nextInt();
+        
+        int totalGrade = grade1 + grade2 + grade3 + grade4 + grade5;
+        double averageGrade = (double) totalGrade / 5;
+        
+        System.out.println("Average Grade: " + averageGrade);
+        
+        scanner.close();
+    }
+}
+
+----------------------------------------------------------
+
+import java.util.Scanner;
+
+public class RectangleArea {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the length of the rectangle: ");
+        double length = scanner.nextDouble();
+
+        System.out.print("Enter the width of the rectangle: ");
+        double width = scanner.nextDouble();
+
+        double area = length * width;
+
+        System.out.println("Area of the rectangle: " + area);
+
+        scanner.close();
+    }
+}
+

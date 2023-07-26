@@ -1,0 +1,21 @@
+1) Challenge: Declare different type of variables
+   Description: Write a program to declare vriables and print their values.(Hello World Program)
+2) Challenge: Sum of Two Numbers
+   Description: Write a program that calculates the sum of two numbers and prints the result.
+3) Challenge: Subtraction of Two Numbers
+   Description: Write a program that calculates the subtraction of two numbers and prints the result.
+4) Challenge: Multiplication of Two Numbers
+   Description: Write a program that calculates the multiplication of two numbers and prints the result.
+5) Challenge: Divsion of Two Numbers
+   Description: Write a program that calculates the divison of two numbers and prints the result.
+
+Real life case scenario - Calculator
+
+
+
+
+
+Program1.java
+
+
+javac Program1.java {"deepak","main"}
