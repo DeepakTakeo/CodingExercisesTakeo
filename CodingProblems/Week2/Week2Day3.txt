@@ -1,0 +1,40 @@
+Exercise 1:Find the word
+Starting with an input string of words, find the second-to-last word of the string. For example, an input of “I love Codecademy” should return “love.”
+
+To make your program more challenging, allow for a second numerical input, n, that results in returning the nth word of a string. So, for the string “I can program in Java” and n = 3, the output should be the third word, “program.”
+
+*****************************************************************************************************
+
+Exercise 2:In this challenge, a farmer is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
+
+chickens = 2 legs
+cows = 4 legs
+pigs = 4 legs
+The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
+
+animals(2, 3, 5) ➞ 36
+
+*********************************************************************************************************
+
+Exercise 3: Write a Java Program to swap two numbers using the third variable.4
+Ex : x = 4 and y = 7
+     after swapping x = 7 , y = 4.
+
+**********************************************************************************************************
+
+Exercise 4 : Write a Java Program to find whether a string or number is palindrome or not.
+If the original string is equal to a reversed string then the number is a palindrome, otherwise not.
+Ex : input : Deepak
+     ouptput : this is not palindrome.
+
+*******************************************************************************************************
+
+Exercise 5 : 
+Fibonacci series is a series of numbers where after the initial two numbers, every occurring number is the sum of two preceding numbers.
+
+Ex : 0,1,1,2,3,5,8,13,21………
+
+
+
+
+
