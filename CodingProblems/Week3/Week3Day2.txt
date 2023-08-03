@@ -1,0 +1,18 @@
+
+Exercise 1 : Write a program that inputs five numbers and determines and prints the number of negative numbers input, the number of positive numbers & input and the number of zeros input.
+Ex: 3,6,0,6,3,-4,-2 : negative number : 2 ,positive number : 4 ,zero : 1
+Hint can use array to store elements and loop to check accordingly
+
+*********************************************************************************************
+
+Exercise 2: For any input, if the value entered is other than 1 or 2, keep looping until the user enters a correct value.
+Ex : entered value 10  -> output ,please enter correct value continue,
+Hint : use appropriate loop
+
+
+*************************************************************************************************
+
+
+Exercise 3: Write java program to convert a string to an array.
+Ex : "how are you" -> {"how","are","you"}
+hint : use split .

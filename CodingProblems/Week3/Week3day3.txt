@@ -1,0 +1,52 @@
+Exercise 1 : Task
+Your local library needs your help! Given the expected and actual return dates for a library book, create a program that calculates the fine (if any). The fee structure is as follows:
+
+If the book is returned on or before the expected return date, no fine will be charged (i.e.: 0).
+If the book is returned after the expected return day but still within the same calendar month and year as the expected return date, . fine = 15$ per day after return date
+If the book is returned after the expected return month but still within the same calendar year as the expected return date, the . fine = 500$ per month after return month
+If the book is returned after the calendar year in which it was expected, there is a fixed fine  = 1000$
+
+Ex : d1,m1,y1 = 12 02 2014  -- returned date
+     d2,m2,y2 = 12 02 2014  -- due date
+     output -- fine = 0
+
+     d1,m1,y1 = 12 02 2014  -- returned date
+     d2,m2,y2 = 12 02 2015  -- due date
+     output -- fine = 1000$
+
+Input Format
+
+The first line contains 3 space-separated integers denoting the respective dd, mm, and yyyy  on which the book was actually returned.
+The second line contains 3 space-separated integers denoting the respective dd, mm , and yyyy on which the book was expected to be returned (due date).
+
+STDIN       Function
+-----       --------
+9 6 2015    day = 9, month = 6, year = 2015 (date returned)
+6 6 2015    day = 6, month = 6, year = 2015 (date due)
+
+
+
+*******************************************************************************************
+
+Exercise 2: Write a program in java to find SmallestPositiveInt in an array.
+Ex: {-2,0,3,4,1,9}  -> output will be 1
+
+hint : The variable smallestPositiveInt is initialized to 1 because the smallest positive integer in an array must be greater than or equal to 1.
+The loop in the program iterates through the array from 0 to array.length - 1. This is because the smallest positive integer in an array must be one of the elements in the array.
+The condition array[i] > 0 && array[i] <= smallestPositiveInt checks if the element at index i is greater than 0 and less than or equal to smallestPositiveInt. If the condition is true, then the element at index i is the smallest positive integer in the array.
+The variable smallestPositiveInt is updated to the value of the element at index i if the condition array[i] > 0 && array[i] <= smallestPositiveInt is true.
+The program returns the value of smallestPositiveInt.
+
+*********************************************************************************************
+
+Exercise 3: Write a program in java to find maximum of numbers that will be inputed by user.
+Ex: 3,5,6  : output will be 6
+Hint : just use set of comparisons between numbers.
+
+********************************************************************************************
+
+Exercise 4: Write an application that reads two integers, determines whether the first is a multiple of the second and
+Ex : 5,10 : yes
+prints the result. [Hint: Use the remainder operator.]
+
+**********************************************************************************************
