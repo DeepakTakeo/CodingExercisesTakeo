@@ -1,0 +1,86 @@
+Exercise 1: 
+Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+
+sumDouble(1, 2) → 3
+sumDouble(3, 2) → 5
+sumDouble(2, 2) → 8
+
+***************************************************************************
+
+Exercise 2: 
+Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+
+makes10(9, 10) → true
+makes10(9, 9) → false
+makes10(1, 9) → true
+
+*****************************************************************************
+
+Exercise 3: 
+Given an array of ints, return true if the array is length 1 or more, and the first element and the last element are equal.
+
+sameFirstLast([1, 2, 3]) → false
+sameFirstLast([1, 2, 3, 1]) → true
+sameFirstLast([1, 2, 1]) → true
+
+*********************************************************************************
+
+Exercise 4: 
+Given an array of ints, return the number of times that two 6's are next to each other in the array. Also count instances where the second "6" is actually a 7.
+
+
+array667([6, 6, 2]) → 1
+array667([6, 6, 2, 6]) → 1
+array667([6, 7, 2, 6]) → 1
+
+*********************************************************************************
+
+Exercise 5: 
+Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+
+
+array123([1, 1, 2, 3, 1]) → true
+array123([1, 1, 2, 4, 1]) → false
+array123([1, 1, 2, 1, 2, 3]) → true
+
+************************************************************************************
+
+Exercise 6:
+Given a string str, if the string starts with "f" return "Fizz". If the string ends with "b" return "Buzz". If both the "f" and "b" conditions are true, return "FizzBuzz". In all other cases, return the string unchanged. (See also: FizzBuzz Code)
+
+
+fizzString("fig") → "Fizz"
+fizzString("dib") → "Buzz"
+fizzString("fib") → "FizzBuzz"
+
+**************************************************************************************
+
+Exercise 7:
+Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a boolean indicating if we are on vacation, return a string of the form "7:00" indicating when the alarm clock should ring. Weekdays, the alarm should be "7:00" and on the weekend it should be "10:00". Unless we are on vacation -- then on weekdays it should be "10:00" and weekends it should be "off".
+alarmClock(1, false) → "7:00"
+alarmClock(5, false) → "7:00"
+alarmClock(0, false) → "10:00"
+
+***********************************************************************************
+
+Exercise 7:
+We are having a session with number of problem solved and queries. Return the int outcome of the session encoded as 0=bad, 1=good, or 2=great. A session is good 
+(1) if both number of problem solved and queries are at least 5.
+ However, if either number of problem solved or queries is at least double the amount of the other one, the session is great 
+(2). However, in all cases, if either number of problem solved or queries is less than 5, the session is always bad (0).
+session(6, 8) → 1
+session(3, 8) → 0
+session(20, 6) → 2
+
+*********************************************************************************************
+
+Exercise 8:
+Given three ints, a b c, return true if it is possible to add two of the ints to get the third.
+
+
+twoAsOne(1, 2, 3) → true
+twoAsOne(3, 1, 2) → true
+twoAsOne(3, 2, 2) → false
+
+*********************************************************************************************
+
