@@ -1,0 +1,23 @@
+1. Create the Authors table with fields :
+       author_id,author_name,author_code
+
+2. Create the Books table, referencing the Authors table with a foreign key:
+       book_id,book_name,title,author_id,publication_year
+
+
+3. Create the BookLoans table, referencing both Books and Authors tables with foreign keys:
+         lon_id,student_name,loan_date,due_date,book_id,author_id
+
+
+4. Insert at least 10 records in each table.
+
+write query to :
+1) Fetch all author details.
+2) Fetch authors having name start with "A", "N"
+
+3) Fetch book_name,title,publication from Books table
+4) Fetch books with publication year between 1993 to 2023 (Insert record in Book table 1969,1946, like that)
+5) Fetch all Books with author_id 1
+
+6) Fetch all Book Loans fields
+7) Fetch all BookLoans that have same loan date.

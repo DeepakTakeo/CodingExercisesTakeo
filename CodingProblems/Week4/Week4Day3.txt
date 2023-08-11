@@ -1,0 +1,17 @@
+Exercise 1: WAP to remove even numbers for a list of integers.
+
+*********************************************************
+
+Exercise 2: WAP to reverse list of integers.
+
+*********************************************************
+
+Exercise 3: You are given a list of integers where all numbers appear twice except for one. Your task is to find and return the integer that appears only once.
+
+**********************************************************
+
+Exercise 4: Given an array of integers, find two numbers that add up to a specific target sum. Return the indices of the two numbers. For example, if the input is [2, 7, 11, 15] and the target is 9, the function should return [0, 1].
+
+*******************************************************
+
+Exercise 5: Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array. For example, if the input is [3, 0, 1], the missing number is 2.
